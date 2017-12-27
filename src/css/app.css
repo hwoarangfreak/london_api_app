@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700,900");
+body {
+  overflow-y: scroll;
+  font-family: 'Lato', sans-serif;
+  font-weight: 600;
+  background: #548483; }
+
+body, html, #root, .app {
+  height: 100%; }
+
+.app__menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  height: 95px;
+  line-height: 75px;
+  background: #76d3d1;
+  font-size: 1.5vw; }
+  .app__menu__light {
+    width: 3%;
+    height: 100%;
+    margin: 0 2% 0 1%;
+    position: relative;
+    border-radius: 40%;
+    background: red; }
+    .app__menu__light__background {
+      background: #25c830;
+      margin: 15% 5%;
+      height: 2%;
+      width: 90%;
+      position: absolute; }
+    .app__menu__light__image {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      z-index: 2; }
+  .app__menu__button {
+    width: 10%; }
+    .app__menu__button button {
+      background-image: linear-gradient(180deg, #7aff21, #42ca33);
+      border-radius: 10px;
+      text-shadow: 2px 2px 2px #666;
+      color: #fff;
+      padding: 10px 15px 11px;
+      text-decoration: none;
+      border: 0;
+      margin: 0 0 0 20%;
+      cursor: pointer; }
+    .app__menu__button button:hover {
+      background-image: linear-gradient(to bottom, #74d628, #40b82b);
+      text-decoration: none; }
+.app__body {
+  background: #548483;
+  color: #ffffff; }
+.app__error {
+  color: red;
+  text-align: center;
+  position: absolute;
+  top: 100px;
+  left: 45%;
+  width: 180px;
+  height: 50px;
+  background: white;
+  border-radius: 5px;
+  opacity: 0.8; }
+
+.none {
+  display: none; }
+
+.ready1 {
+  height: 30%; }
+
+.ready2 {
+  height: 58%; }
+
+.ready3 {
+  height: 85%; }
+
+.button-enter {
+  opacity: 0.01;
+  transform: translate(100px); }
+
+.button-enter.button-enter-active {
+  opacity: 1;
+  transform: translate(0);
+  transition: 1000ms; }
+
+.button-leave {
+  opacity: 1;
+  transform: translate(0); }
+
+.button-leave.button-leave-active {
+  opacity: 0.01;
+  transform: translate(100px);
+  transition: 1000ms; }
+
+/*# sourceMappingURL=app.css.map */

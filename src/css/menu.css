@@ -1,0 +1,30 @@
+.menu-item {
+  width: 25%;
+  height: 75px;
+  padding: 0 10px; }
+  .menu-item__title {
+    color: #fff;
+    display: inline-block;
+    padding: 0 10px 0 0; }
+
+.head {
+  width: 35%;
+  box-sizing: border-box; }
+
+.head.green {
+  background: url("../img/head_background_green.png");
+  background-size: 100% 100%; }
+
+.head.red {
+  background: url("../img/head_background_red.png");
+  background-size: 100% 100%; }
+
+.tail.green {
+  background: url("../img/tail_background_green.png");
+  background-size: 100% 100%; }
+
+.tail.red {
+  background: url("../img/tail_background_red.png");
+  background-size: 100% 100%; }
+
+/*# sourceMappingURL=menu.css.map */
